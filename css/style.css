@@ -1,0 +1,810 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-item {
+    display: flex;
+    width: 65%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+
+ul {
+    display: flex;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 4px;
+    margin: 10px;
+    padding: 15px;
+}
+
+.logo {
+    color: rgb(26, 172, 198);
+    font-size: 32px;
+}
+
+.support {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    /* border: 2px solid black; */
+}
+
+#icon {
+    margin-left: 50px;
+    font-size: 25px;
+}
+
+.sec-1 {
+    background: url(/image/HeroImage.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.laser-tv {
+    width: 40%;
+    /* border: 2px solid black; */
+    color: white;
+    margin: 0px 85px;
+    padding: 60px;
+    line-height: 4.5rem;
+
+}
+
+.laser-tv p {
+    margin-top: 20px;
+    font-size: 45px;
+}
+
+.btn {
+    background: cyan;
+    font-size: 18px;
+    width: 33%;
+    height: 9vh;
+    border-radius: 5px;
+    border: none;
+}
+
+.discover {
+    width: 100%;
+    height: 40vh;
+    text-align: center;
+    padding: 90px 0px;
+}
+
+.discover h1 {
+    font-size: 40px;
+}
+
+.discover p {
+    font-size: 21px;
+}
+
+.sec-2 a img {
+    width: 100%;
+    height: 100vh;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    width: 100%;
+    height: 50vh;
+}
+
+.cards img {
+    width: 180px;
+    height: 95px;
+}
+
+.cards h6 {
+    text-align: center;
+}
+
+.secphone-3 {
+    display: none;
+}
+
+.sec-4 {
+    background: black;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+}
+
+.cen-text {
+    width: 100%;
+    height: 65%;
+    text-align: center;
+    padding: 100px 0px;
+    /* background: black; */
+    color: white;
+    border: 3px solid black;
+    line-height: 4rem;
+}
+
+.cen-text h3 {
+    font-size: 42px;
+}
+
+.cen-text h1 {
+    font-size: 68px;
+}
+
+.cen-text p {
+    font-size: 20px;
+}
+
+.cen-img img {
+    width: 100%;
+    height: 100vh;
+}
+
+.define h1 {
+    width: 100%;
+    height: 45vh;
+    color: rgb(29, 157, 177);
+    text-align: center;
+    font-size: 75px;
+    padding: 95px 0px;
+}
+
+.sence {
+    background: url(/image/img-5.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.sence1 {
+    width: 40%;
+    height: 100vh;
+    color: white;
+    /* border: 2px solid white; */
+    margin: 0px 60%;
+    padding: 16% 10px;
+}
+
+.sence1 h1 {
+    font-size: 45px;
+}
+
+.sence1 p {
+    width: 77%;
+    font-size: 20px;
+    margin: 18px 0px;
+}
+
+.sence1 a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.sec-5 {
+    width: 100%;
+    height: 100%;
+    /* border: 2px solid black; */
+}
+
+.mid-heading {
+    width: 100%;
+    /* height: 50vh; */
+    /* border: 2px solid black; */
+    text-align: center;
+    padding: 100px 0px;
+}
+
+.mid-heading h3 {
+    font-size: 45px;
+}
+
+.mid-heading h1 {
+    font-size: 78px;
+    margin: 15px 0px;
+}
+
+.picture {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid black; */
+}
+
+.mini {
+    width: 50%;
+    /* height: 100vh; */
+    /* border: 2px solid black; */
+    padding: 10px 10px;
+}
+
+.mini img {
+    width: 48vw;
+    height: 95vh;
+}
+
+.pic-text {
+    margin: 200px 130px;
+}
+
+.pic-text h1 {
+    font-size: 45px;
+}
+
+.pic-text p {
+    width: 500px;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+.pic-text a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.picture1 {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid black; */
+}
+
+.mini1 {
+    width: 50%;
+    /* height: 100vh; */
+    /* border: 2px solid black; */
+    padding: 10px 0px;
+}
+
+.mini1 img {
+    width: 48vw;
+    height: 95vh;
+}
+
+.pic-text1 {
+    margin: 180px 130px;
+}
+
+.pic-text1 h1 {
+    font-size: 45px;
+}
+
+.pic-text1 p {
+    width: 500px;
+    margin: 20px 0px;
+    font-size: 25px;
+}
+
+.pic-text1 a {
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.sec-7 {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.black {
+    height: 65vh;
+    text-align: center;
+    padding: 95px 0px;
+    line-height: 5rem;
+}
+
+.black h3 {
+    font-size: 45px;
+}
+
+.black h1 {
+    font-size: 75px;
+}
+
+.black p {
+    font-size: 20px;
+}
+
+.sec-8 {
+    background: black url(/image/dolby.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200vh;
+    color: white;
+    /* display: flex; */
+    position: relative;
+
+}
+
+.secBox-1 {
+    width: 100%;
+    display: flex;
+}
+
+.secBox-2 {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.side-1 {
+    width: 50%;
+}
+
+.side-1 h1 {
+    font-size: 40px;
+}
+
+.side-1 p {
+    width: 60%;
+    font-size: 20px;
+}
+
+.side-2 {
+    width: 50%;
+    /* border: 2px solid white; */
+    /* text-align: center; */
+    padding: 60px 150px;
+
+}
+
+.side-2 h1 {
+    font-size: 40px;
+}
+
+.side-2 p {
+    width: 80%;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.side-3 {
+    width: 50%;
+    /* border: 2px solid white; */
+    /* text-align: center; */
+    padding: 60px 150px;
+
+}
+
+.side-3 h1 {
+    font-size: 40px;
+}
+
+.side-3 p {
+    width: 60%;
+    font-size: 20px;
+}
+
+.side-4 {
+    width: 50%;
+    /* border: 2px solid white; */
+    /* text-align: center; */
+
+}
+
+.side-4 h1 {
+    font-size: 40px;
+}
+
+.side-4 p {
+    width: 80%;
+    font-size: 30px;
+    margin: 10px 0px;
+}
+
+.sec-9 {
+    width: 100%;
+    background: black;
+    color: white;
+}
+
+.lasthead {
+    height: 40vh;
+    text-align: center;
+    padding: 60px 0px;
+}
+
+.lasthead h1 {
+    color: rgb(87, 123, 182);
+    font-size: 70px;
+}
+
+.volume img {
+    width: 100%;
+    height: 100%;
+}
+
+.sec-12 {
+    width: 100%;
+    height: 35vh;
+    /* border: 2px solid black; */
+    text-align: center;
+    font-size: 30px;
+    padding: 80px 0;
+}
+
+.sec-13 {
+    display: flex;
+    margin: 0 50px;
+}
+
+.tv3 {
+    width: 16.6%;
+    text-align: center;
+    /* border: 2px solid black; */
+}
+
+.tv3 img {
+    width: 200px;
+    height: 130px;
+}
+
+.tv3 h1 {
+    /* width: 200px; */
+    font-size: 20px;
+    margin: 25px 20px;
+    /* text-align: center; */
+}
+
+.tv3 button {
+    width: 130px;
+    height: 45px;
+    font-weight: 20px;
+    border-radius: 5px;
+    border: none;
+    background: cyan;
+    margin: 10px 0;
+}
+
+.sec-14 {
+    /* display: flex; */
+    margin: 0px 90px;
+    margin-top: 100px;
+    /* width: 16.6%; */
+}
+
+#line {
+    background: rgb(204, 204, 215);
+}
+
+.row1 {
+    display: flex;
+    border-top: 3px solid black;
+}
+
+.row1 h3 {
+    margin: 20px 0;
+}
+
+#last {
+    border-bottom: 3px solid black;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 40px;
+    border-bottom: 0.1px solid black;
+}
+
+.logo2 {
+    font-size: 35px;
+    color: rgb(10, 118, 160);
+}
+
+.icon {
+    font-size: 28px;
+}
+
+.icon i {
+    margin: 0px 10px;
+}
+
+.sec-15 {
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100%;
+    font-size: 19px;
+    line-height: 2rem;
+}
+
+.lastrow1 {
+    /* border: 2px solid black; */
+    margin: 150px 0;
+}
+
+.lastrow2 {
+    /* border: 2px solid black; */
+    margin: 90px 0;
+}
+
+.lastrow3 {
+    /* border: 2px solid black; */
+    margin: 120px 0;
+}
+
+.lastrow4 {
+    /* border: 2px solid black; */
+    margin: 50px 0;
+}
+
+.low {
+    margin-top: 50px;
+}
+
+.sec-16 {
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 2px solid black; */
+    background: rgb(220, 220, 228);
+    padding: 40px 0;
+}
+
+.foot-1 {
+    display: flex;
+}
+
+.foot-1 i {
+    font-size: 22px;
+    color: cyan;
+}
+
+@media only screen and (max-width:800px) {
+    .navbar {
+        width: 100%;
+        /* display: block; */
+        font-size: 5px;
+    }
+
+    .navbar ul {
+        display: none;
+    }
+
+    .sec-1 {
+        width: 100%;
+        height: 100%;
+        font-size: 10px;
+    }
+    .laser-tv p {
+        /* margin-top: 20px; */
+        font-size: 33px;
+    }
+
+    .laser-tv {
+        width: 100%;
+        /* border: 2px solid black; */
+        color: white;
+        margin: 0px 0px;
+        /* padding: 30px; */
+        /* line-height: 4.5rem; */
+    }
+
+    .sec-2 {
+        width: 100%;
+        height: 100%;
+        font-size: 1px;
+    }
+
+    .discover {
+        width: 100%;
+        /* height: 45vh; */
+        /* text-align: center; */
+        /* padding: 90px 0px; */
+
+    }
+    .discover h1 {
+        font-size: 30px;
+    }
+
+    .sec-3 {
+        display: none;
+    }
+
+    .sec-2 a img {
+        height: 30vh;
+    }
+
+    .secphone-3 {
+        display: block;
+        padding: 10px 0;
+    }
+
+    .cen-text {
+        height: 100%;
+        padding: 0 0;
+    }
+
+    .cen-text h3 {
+        font-size: 15px;
+    }
+
+    .cen-text h1 {
+        font-size: 35px;
+    }
+
+    .cen-img img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .define h1 {
+        /* width: 100%; */
+        height: 100%;
+        /* color: rgb(29, 157, 177); */
+        /* text-align: center; */
+        font-size: 25px;
+        padding: 55px 0px;
+    }
+
+    .sence {
+        height: 100%;
+    }
+
+    .sence1 {
+        width: 100%;
+        height: 100%;
+        color: white;
+        /* border: 2px solid white; */
+        margin: 0px 0px;
+        padding-top: 300px;
+        padding-right: 0px;
+        padding-left: 10px;
+        padding-bottom: 0px;
+        /* position: absolute; */
+    }
+
+    .sence1 h1 {
+        font-size: 32px;
+    }
+
+    .mid-heading h1 {
+        font-size: 28px;
+        /* margin: 15px 0px; */
+    }
+
+    .mid-heading h3 {
+        font-size: 18px;
+        /* margin: 15px 0px; */
+    }
+
+    .mid-heading {
+        padding: 50px 0px;
+    }
+
+    .sec-5 .cards {
+        display: none;
+    }
+
+    .picture {
+        display: block;
+        height: 100%;
+    }
+
+    .mini img {
+        width: 100vw;
+        height: 100%;
+    }
+
+    .pic-text {
+        margin: 0px 0px;
+    }
+
+    .mini {
+        padding: 0px 0px;
+    }
+
+    .pic-text p {
+        width: 100%;
+    }
+    .picture1 {
+        /* display: block; */
+        flex-direction: column-reverse;
+        height: 100%;
+    }
+
+    .mini1 img {
+        width: 100vw;
+        height: 100%;
+    }
+
+    .pic-text1{
+        margin: 0px 0px;
+    }
+
+    .mini1 {
+        padding: 0px 0px;
+    }
+
+    .pic-text1 p {
+        width: 100%;
+    }
+    .pic-text1 h1 {
+        font-size: 35px;
+    }
+    .black h3 {
+        font-size: 15px;
+    }
+    .black h1 {
+        font-size: 15px;
+    }
+    .black {
+        height: 100%;
+        line-height: 2rem;
+        padding: 0 0;
+    }
+    .secBox-1{
+        display: none;
+    }
+    .secBox-2{
+        display: none;
+    }
+    .sec-8{
+        width: 100%;
+        height: 100vh;
+    }
+    .sec-10 .cards{
+        display: none;
+    }
+    .sec-12 {
+        height: 100%;
+        font-size: 20px;
+    }
+    .sec-13{
+        display: block;
+        width: 100%;
+        margin: 0 0;
+    }
+    .tv3 img {
+       width: 100vw;
+       height: 30vh;
+    }
+    .tv3 {
+        width: 100%;
+    }
+    .sec-14 {
+        display: block;
+        margin: 0px 0px;
+        margin-top: 100px;
+        /* width: 16.6%; */
+    }
+    .logo2{
+        font-size: 15px;
+    }
+    .sec-15{
+        font-size: 15px;
+    }
+    .foot-2{
+        display: none;
+    }
+    
+}
