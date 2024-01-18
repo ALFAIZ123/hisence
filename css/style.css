@@ -56,7 +56,7 @@ ul li a {
 }
 
 .sec-1 {
-    background: url(/image/HeroImage.jpg);
+    background: url(../image/HeroImage.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -177,7 +177,7 @@ video {
 }
 
 .sence {
-    background: url(/image/img-5.webp);
+    background: url(../image/img-5.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -333,7 +333,7 @@ video {
 }
 
 .sec-8 {
-    background: black url(/image/dolby.webp);
+    background: black url(../image/dolby.webp);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -799,6 +799,9 @@ video {
     }
     .logo2{
         font-size: 15px;
+    }
+    .icon{
+        font-size: 20px;
     }
     .sec-15{
         font-size: 15px;
