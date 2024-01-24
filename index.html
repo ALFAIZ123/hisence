@@ -54,17 +54,19 @@
 
 <body>
     <div class="container">
-        <header class="navbar">
+        <header class="navbar ">
             <div class="nav-item">
                 <div class="logo">Hisense</div>
-                <ul>
-                    <li><a href="#">Laser TV</a></li>
-                    <li><a href="#">Home Appliances</a></li>
-                    <li><a href="#">Washing</a></li>
-                    <li><a href="#">TV&audio</a></li>
-                    <li><a href="#">eShop</a></li>
-
-                </ul>
+                <div class="navigation h-class">
+                    <ul class="item v-class">
+                        <li><a href="#">Laser TV</a></li>
+                        <li><a href="#">Home Appliances</a></li>
+                        <li><a href="#">Washing</a></li>
+                        <li><a href="#">TV&audio</a></li>
+                        <li><a href="#">eShop</a></li>
+                    </ul>
+                </div>
+                <div class="burger">&#9776</div>
             </div>
             <div class="support">
                 <ul>
@@ -518,7 +520,7 @@
                 </div>
                 <div class="tv3" id="line"></div>
                 <div class="tv3">
-                    <h3>3000 lumens 100000:1</h3>
+                    <h3>3000 lumens100000:1</h3>
                 </div>
                 <div class="tv3">
                     <h3>100000:1</h3>
@@ -653,15 +655,16 @@
             </div>
         </section>
         <section class="sec-15">
+           <div class="lastline-1">
             <div class="lastrow1">
-                <p>TV & Audio</p>
+                <p id="number">TV & Audio</p>
                 <p>TV</p>
                 <p>Soundbar</p>
                 <p>Laser TV</p>
                 <p>Laser TV</p>
             </div>
             <div class="lastrow2">
-                <p>Home</p>
+                <p id="number">Home</p>
                 <p>Appliances</p>
                 <p>Refrigerator</p>
                 <p>Laundry</p>
@@ -670,8 +673,10 @@
                 <p>Chest Freezer</p>
                 <p>Air Conditioner</p>
             </div>
+        </div>
+         <div class="lastline-2">
             <div class="lastrow3">
-                <p>B2B</p>
+                <p id="number">B2B</p>
                 <p>Commercial Display</p>
                 <P>Medical</P>
                 <P>Transtech</P>
@@ -680,7 +685,7 @@
                 <P>eShop</P>
             </div>
             <div class="lastrow4">
-                <p>About</p>
+                <p id="number">About</p>
                 <p>Hisense</p>
                 <p>Overview</p>
                 <p>History</p>
@@ -697,6 +702,7 @@
                     <p>Customer Center</p>
                 </div>
             </div>
+         </div>
         </section>
         <footer class="sec-16">
             <div class="foot-1">
@@ -733,6 +739,16 @@
     </script>
     <script>
         AOS.init();
+    </script>
+    <script>
+           burger = document.querySelector('.burger')
+        navbarItems = document.querySelector('.navigation')
+        nav = document.querySelector('.item')
+
+        burger.addEventListener('click', () => {
+            navbarItems.classList.toggle('h-class')
+            nav.classList.toggle('v-class')
+        })
     </script>
 </body>
 

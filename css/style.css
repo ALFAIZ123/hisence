@@ -37,6 +37,15 @@ ul li a {
     margin: 10px;
     padding: 15px;
 }
+.burger{
+    display: none;
+    position: absolute;
+    top: 15px;
+    right: 5%;
+    cursor: pointer;
+    font-size: 35px;
+    color: black;
+}
 
 .logo {
     color: rgb(26, 172, 198);
@@ -540,7 +549,7 @@ video {
 
 .lastrow1 {
     /* border: 2px solid black; */
-    margin: 150px 0;
+    margin: 150px 100px;
 }
 
 .lastrow2 {
@@ -550,7 +559,7 @@ video {
 
 .lastrow3 {
     /* border: 2px solid black; */
-    margin: 120px 0;
+    margin: 120px 100px;
 }
 
 .lastrow4 {
@@ -561,6 +570,14 @@ video {
 .low {
     margin-top: 50px;
 }
+.lastline-1{
+    display: flex;
+    justify-content: space-evenly;
+}
+.lastline-2{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .sec-16 {
     display: flex;
@@ -568,6 +585,9 @@ video {
     /* border: 2px solid black; */
     background: rgb(220, 220, 228);
     padding: 40px 0;
+}
+#number{
+    font-weight: bolder;
 }
 
 .foot-1 {
@@ -580,15 +600,75 @@ video {
 }
 
 @media only screen and (max-width:800px) {
-    .navbar {
-        width: 100%;
-        /* display: block; */
-        font-size: 5px;
+    .burger{
+        display: block;
+        z-index: 112;
     }
+ 
+    .navigation{
+        position: absolute;
+        height: 80vh;
+        width: 100%;
+        top: 0;
+        flex-direction: column;
+        right: 0;
+        text-align: left;
+        justify-content: center;
+        transition: all 1s ease-in-out;
+        background-color: rgb(146, 159, 201);
+        z-index: 111;
+    }
+    
+ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 4px;
+    margin: 10px;
+    padding: 15px;
+}
+ul {
+    /* border: 2px solid black; */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+ul li a {
+    /* text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 4px; */
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+}
+.support {
+   display: none;
+}
+span{
+    display: none;
+}
+    .navigation li a{
+        padding: 10px 0;
+        display: block;
+    }
+    .h-class{
+        height: 100vh;
+        opacity: 0;
 
-    .navbar ul {
+    }
+    .v-class{
+        opacity: 0;
+    }
+    .support ul{
         display: none;
     }
+
+    /* .navbar ul {
+        display: none;
+    } */
 
     .sec-1 {
         width: 100%;
@@ -805,6 +885,20 @@ video {
     }
     .sec-15{
         font-size: 15px;
+    }
+    .lastrow1{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .lastrow3{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .lastline-1{
+        display: block;
+    }
+    .lastline-2{
+        display: block;
     }
     .foot-2{
         display: none;
